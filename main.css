@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.title {
+  color: white;
+  margin: 0;
+  padding: 9px 0 14px 41px;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 25px;
+  box-sizing: border-box;
+  text-shadow: 1px 1px 1px black;
+  background: -moz-linear-gradient(top, rgb(104, 104, 104) 0%, rgb(83, 83, 83) 100%);
+  background: linear-gradient(to bottom, rgb(104, 104, 104) 0%, rgb(83, 83, 83) 100%);
+  border-bottom: 1px solid black;
+}
+
+.content {
+  padding: 13px 41px;
+}
+
+.textField {
+  width: 90%;
+  border-radius: 0px;
+  padding: 8px;
+  font-size: 20px;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+.listen, .vibrate {
+  width: 50px;
+  height: 50px;
+}
+
+.button {
+  display: inline-block;
+  padding: 3px 13px;
+  font-family: arial;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #ddd;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.buttons {
+  text-align: center;
+}

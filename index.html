@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="main">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body ng-controller="mainCtrl">
+    <div class="title">
+      Morse Code Generator
+    </div>
+    <div class="content">
+      <div>
+        <input type="text" class="textField" ng-model="textToEncode" placeholder="Enter some text here" />
+      </div>
+
+      <div class="buttons">
+        <span class="button" ng-click="vibrate()">
+          <img class="vibrate" src="icon-vibrate.png" />
+          <div>Vibrate</div>
+        </span>
+        <span class="button" ng-click="playSounds()">
+          <img class="listen" src="icon-listen.png" />
+          <div>Listen</div>
+        </span>
+      </div>
+    </div>
+
+    <script src="angular.min.js"></script>
+    <script src="morseCode.js"></script>
+    <script src="sound.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

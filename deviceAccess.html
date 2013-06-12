@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="main">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body ng-controller="mainCtrl">
+		<input type="button" value="Install App" ng-click="installApp()" />
+		<input type="button" value="Add more text" ng-click="addMoreText()" />
+		<input type="text" ng-model="sampleText" />
+
+		<input type="button" value="Vibrate" ng-click="vibrate()" />
+
+		<input type="text" id="ambientLight" />
+		<input type="text" ng-model="batteryLevel" />
+		<input type="text" id="proximity" />
+		<input type="text" id="orientationZ" />
+		<input type="text" id="orientationX" />
+		<input type="text" id="orientationY" />
+		<input type="text" id="accelerationX" />
+		<input type="text" id="accelerationY" />
+		<input type="text" id="accelerationZ" />
+
+		<script src="http://code.angularjs.org/1.1.5/angular.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Ninja Meetup",
+  "description": "Our cool firefox OS app",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/ninja128.png",
+    "30": "/ninja30.png",
+    "60": "/ninja60.png"
+  },
+  "developer": {
+    "name": "ICS Open Web Stack team",
+    "url": "http://openweb.ldschurch.org"
+  },
+  "default_locale": "en"
+}
